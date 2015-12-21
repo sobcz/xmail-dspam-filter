@@ -2,15 +2,16 @@
 
 Simple XMail filter for use with DSPAM (http://dspam.nuclearelephant.com) daemon.
 
-Configure:
+**Configure:**
 
-If you want output with CRLF line endings, you don't need to do anything.
-If you want output with LF line endings, remove #define OutputCRLF.
+If you want output with CRLF line endings, you don't need to do anything.  
+If you want output with LF line endings, remove `#define OutputCRLF`.
 
-Compile:
+**Compile:**
+
 gcc -o dspam-filter dspam-filter.c
 
-Install:
+**Install:**
 
-Put dspam-filter anywhere you want, dspam-check.tab in <mail-root>/filters/ and
-filters.in.tab in <mail-root>/ (edit as needed).
+Put dspam-filter anywhere you want, dspam-check.tab in \<mail-root\>/filters/ and
+filters.in.tab in \<mail-root\>/ (edit as needed).
